@@ -7,6 +7,7 @@ router.get('/' , verify ,(req , res) => {
     //     description: 'random data you shouldnt access'
     // }});
     res.send(req.user.id);
+    console.log('it works..');
 });
 
 module.exports = router;
